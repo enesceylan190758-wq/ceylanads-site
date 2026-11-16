@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Müşteriden Google yorumu isteme seti">
+<meta property="og:description" content="5 hazır WhatsApp mesajı + kasa kartı · NestMedia360">
+<meta property="og:image" content="https://enesceylan190758-wq.github.io/ceylanads-site/rehber/og-yorum.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:url" content="https://enesceylan190758-wq.github.io/ceylanads-site/rehber/yorum/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0E1B3D">
+<link rel="icon" href="../../favicon-32.png">
+<style>:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}</style>
+<title>Google Yorum Seti</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@800;900&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap">
+<style>
+/* Layout: lacivert marka bandı + tek sütun mobil rehber; işaretlenebilir adımlar, kopyalanabilir mesajlar, sarı aksan */
+:root{
+  --navy:#0E1B3D; --navy-2:#16285A; --on-navy:#FFFFFF; --on-navy-dim:#AFC0E8;
+  --bg:#F5F7FB; --surface:#FFFFFF; --fg:#121A2E; --muted:#5B6680; --line:#E2E7F1;
+  --accent:#F5B800; --accent-ink:#0E1B3D; --accent-soft:#FFF6D6;
+  --ok:#12A37A; --ok-soft:#E3F6EF; --warn:#E5484D; --warn-soft:#FDECEC; --blue:#2F6BFF; --blue-soft:#E9F0FF;
+  --display:"Space Grotesk",system-ui,sans-serif; --body:"Manrope",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0B1222; --surface:#121B30; --fg:#E8EDF7; --muted:#97A3BD; --line:#24304B;
+  --accent:#FFC933; --accent-ink:#0E1B3D; --accent-soft:#2E2610;
+  --ok:#3CCB9C; --ok-soft:#10302A; --warn:#FF7377; --warn-soft:#3A1719; --blue:#6E98FF; --blue-soft:#18264A; color-scheme:dark }}
+:root[data-theme="dark"]{
+  --bg:#0B1222; --surface:#121B30; --fg:#E8EDF7; --muted:#97A3BD; --line:#24304B;
+  --accent:#FFC933; --accent-ink:#0E1B3D; --accent-soft:#2E2610;
+  --ok:#3CCB9C; --ok-soft:#10302A; --warn:#FF7377; --warn-soft:#3A1719; --blue:#6E98FF; --blue-soft:#18264A; color-scheme:dark }
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.55}
+.wrap{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.band{background:var(--navy);color:var(--on-navy)}
+header.band .wrap{padding-block:22px 74px;display:flex;flex-direction:column;gap:18px}
+.brand{display:flex;flex-direction:column;gap:6px}
+.logo{display:flex;align-items:flex-start;line-height:.9;font-family:"Inter Tight","Helvetica Neue",Arial,sans-serif;color:#fff}
+.logo .w{font-size:34px;font-weight:900;letter-spacing:-.06em}
+.logo .sq{width:8px;height:8px;background:#C8102E;margin:19px 0 0 3px;display:block}
+.logo .n{font-size:11px;font-weight:800;letter-spacing:-.02em;margin:1px 0 0 4px}
+.brand small{font-weight:600;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--on-navy-dim)}
+.flogo{display:inline-flex;align-items:flex-start;line-height:.9;font-family:"Inter Tight","Helvetica Neue",Arial,sans-serif;color:var(--fg)}
+.flogo .w{font-size:20px;font-weight:900;letter-spacing:-.06em}
+.flogo .sq{width:5px;height:5px;background:#C8102E;margin:11px 0 0 2px;display:block}
+.flogo .n{font-size:8px;font-weight:800;margin:1px 0 0 3px}
+.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#F5B800;font-weight:800}
+header h1{font-family:var(--display);font-size:clamp(27px,7vw,40px);line-height:1.12;margin:4px 0 8px;text-wrap:balance}
+header .sub{color:var(--on-navy-dim);font-weight:500;max-width:60ch}
+main .wrap{padding-block:0 40px;display:flex;flex-direction:column;gap:30px}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:-52px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 14px;box-shadow:0 6px 18px rgba(14,27,61,.10);display:flex;flex-direction:column;gap:2px;min-width:0}
+.stat .v{font-family:var(--display);font-size:clamp(20px,5.4vw,28px);font-weight:700;line-height:1.1;font-variant-numeric:tabular-nums}
+.stat .l{color:var(--muted);font-size:12.5px;font-weight:600;line-height:1.3}
+.stat:nth-child(1) .v{color:var(--blue)} .stat:nth-child(2) .v{color:var(--ok)} .stat:nth-child(3) .v{color:var(--warn)}
+section{display:flex;flex-direction:column;gap:12px}
+section h2{font-family:var(--display);font-size:22px;line-height:1.2;margin:0;text-wrap:balance}
+.lead{margin:0;max-width:65ch}
+.muted{color:var(--muted);font-size:14px;margin:0}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px}
+.progress{display:flex;align-items:center;gap:12px;position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:10px}
+.progress .bar{flex:1;height:10px;border-radius:5px;background:var(--line);overflow:hidden}
+.progress .fill{height:100%;width:0;background:var(--ok);border-radius:5px;transition:width .3s}
+.progress b{font-family:var(--display);font-variant-numeric:tabular-nums;white-space:nowrap}
+ul.check{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+ul.check li label{display:flex;gap:12px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;cursor:pointer}
+ul.check input{appearance:none;flex:none;width:24px;height:24px;margin:1px 0 0;border:2px solid var(--muted);border-radius:7px;display:grid;place-items:center;cursor:pointer;background:var(--surface)}
+ul.check input:checked{background:var(--ok);border-color:var(--ok)}
+ul.check input:checked::after{content:"";width:6px;height:12px;border:solid #fff;border-width:0 3px 3px 0;transform:rotate(45deg) translate(-1px,-1px)}
+ul.check input:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+ul.check .t{font-weight:800;display:block}
+ul.check .d{color:var(--muted);font-size:14.5px;display:block;margin-top:2px}
+ul.check li:has(input:checked) label{border-color:var(--ok);background:var(--ok-soft)}
+ul.check li:has(input:checked) .t{text-decoration:line-through;text-decoration-color:var(--ok)}
+.num{flex:none;width:26px;height:26px;border-radius:50%;background:var(--accent);color:var(--accent-ink);font-family:var(--display);font-weight:700;font-size:14px;display:grid;place-items:center;margin-top:1px}
+.tag{display:inline-block;font-size:11.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:999px;background:var(--blue-soft);color:var(--blue)}
+.tag.warn{background:var(--warn-soft);color:var(--warn)} .tag.ok{background:var(--ok-soft);color:var(--ok)}
+.three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+@media (max-width:560px){.three{grid-template-columns:1fr}}
+.factor{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.factor b{font-family:var(--display);font-size:17px}
+.factor span{color:var(--muted);font-size:14px}
+.factor.off{opacity:.7}
+.callout{border-radius:14px;padding:16px;background:var(--accent-soft);border:1px solid var(--accent);display:flex;flex-direction:column;gap:6px}
+.callout b{font-family:var(--display)}
+.msg{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px}
+.msg .head{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.msg .bubble{background:var(--ok-soft);border-radius:4px 14px 14px 14px;padding:12px 14px;white-space:pre-wrap;font-size:15px;min-width:0;overflow-wrap:anywhere}
+button.copy{font:inherit;font-weight:800;font-size:14px;border:0;border-radius:10px;padding:9px 14px;background:var(--navy);color:#fff;cursor:pointer}
+:root[data-theme="dark"] button.copy{background:var(--accent);color:var(--accent-ink)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) button.copy{background:var(--accent);color:var(--accent-ink)}}
+button.copy.done{background:var(--ok);color:#fff}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (max-width:560px){.fields{grid-template-columns:1fr}}
+.field{display:flex;flex-direction:column;gap:4px;min-width:0}
+.field label{font-size:13px;font-weight:700;color:var(--muted)}
+.field input{font:inherit;font-size:16px;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--fg);min-width:0}
+.field input:focus-visible{outline:3px solid var(--blue);outline-offset:1px}
+.result{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.result .stat{margin:0;box-shadow:none}
+.card-print{border:2px dashed var(--muted);border-radius:16px;padding:22px;text-align:center;display:flex;flex-direction:column;gap:8px;align-items:center;background:var(--surface)}
+.card-print .big{font-family:var(--display);font-size:22px;font-weight:700}
+.qr{width:110px;height:110px;border-radius:10px;border:2px solid var(--fg);display:grid;place-items:center;font-weight:800;color:var(--muted);font-size:13px}
+ul.rules{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+ul.rules li{display:flex;gap:12px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+ul.rules .x{flex:none;width:24px;height:24px;border-radius:50%;background:var(--warn-soft);color:var(--warn);display:grid;place-items:center;font-weight:800}
+ul.rules .y{flex:none;width:24px;height:24px;border-radius:50%;background:var(--ok-soft);color:var(--ok);display:grid;place-items:center;font-weight:800}
+.cta{background:var(--navy);color:#fff;border-radius:18px;padding:22px 18px;display:flex;flex-direction:column;gap:12px}
+.cta h2{color:#fff}
+.cta p{margin:0;color:var(--on-navy-dim)}
+.btns{display:flex;flex-direction:column;gap:10px}
+a.btn{display:flex;justify-content:center;align-items:center;gap:8px;text-decoration:none;font-weight:800;border-radius:12px;padding:14px 16px;font-size:16px}
+a.btn.wa{background:#25D366;color:#06301A}
+a.btn.ig{background:#F5B800;color:#0E1B3D}
+.phone{font-family:var(--display);font-variant-numeric:tabular-nums;color:#fff;font-size:15px;text-align:center;user-select:all}
+footer .wrap{padding-block:6px 30px;color:var(--muted);font-size:13px;display:flex;flex-direction:column;gap:4px}
+footer b{color:var(--fg)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+<script>document.addEventListener('DOMContentLoaded',function(){document.body.dataset.key='rehber-yorum'});</script>
+</head><body>
+<header class="band"><div class="wrap">
+ <div class="brand"><div class="logo" role="img" aria-label="nestmedia360"><span class="w">nestmedia</span><span class="sq"></span><span class="n">360</span></div><small>Google &amp; Meta reklam yönetimi</small></div>
+ <div><div class="eyebrow">Ücretsiz rehber · YORUM</div><h1>Müşteriden Google yorumu isteme seti</h1><div class="sub">5 hazır WhatsApp mesajı, kasa kartı ve kurallar. Adı ve linki yaz, mesaj hazır.</div></div>
+</div></header>
+<main><div class="wrap">
+ <div class="stats"><div class="stat"><span class="v">5</span><span class="l">hazır mesaj</span></div><div class="stat"><span class="v">2 dk</span><span class="l">link kurulumu</span></div><div class="stat"><span class="v">1</span><span class="l">kasa kartı</span></div></div>
+ 
+ <section>
+  <h2>Sır basit: her müşteriden, doğru anda, tek tıkla iste</h2>
+  <p class="lead">Haritalar'da ilk 3'teki rakibinin 1.200 yorumu, senin 12 yorumun varsa müşteri onu seçer.</p>
+ </section>
+ <div class="progress"><div class="bar"><div class="fill" id="fill"></div></div><b id="cnt">0 / 4</b></div>
+ <section>
+  <h2>4 adımda kur</h2>
+  <ul class="check"><li><label for="y0"><input type="checkbox" id="y0"><span><span class="t">Yorum linkini al (2 dakika)</span><span class="d">Google'da işletmenin adını ara → profilinde "Yorum iste" / "Daha fazla yorum alın" butonuna bas → linki kopyala.</span></span></label></li><li><label for="y1"><input type="checkbox" id="y1"><span><span class="t">Linkten QR kod oluştur</span><span class="d">Ücretsiz QR siteleri yeter. Aşağıdaki kasa kartına koy.</span></span></label></li><li><label for="y2"><input type="checkbox" id="y2"><span><span class="t">Mesajını seç, kopyala</span><span class="d">Aşağıya müşterinin adını ve linkini yaz; mesajlar hazır hale gelir.</span></span></label></li><li><label for="y3"><input type="checkbox" id="y3"><span><span class="t">Kasa kartını bas, kasaya koy</span><span class="d">Kartın metni aşağıda.</span></span></label></li></ul>
+ </section>
+ <section>
+  <h2>Doğru an</h2>
+  <div class="three" style="grid-template-columns:repeat(2,minmax(0,1fr))">
+   <div class="factor"><b>Restoran / kafe</b><span>Hesap ödendikten hemen sonra</span></div>
+   <div class="factor"><b>Kuaför / güzellik</b><span>Aynada sonucu gördüğü an</span></div>
+   <div class="factor"><b>Klinik</b><span>Tedavi bitip memnuniyetini söylediği gün</span></div>
+   <div class="factor"><b>Usta / servis</b><span>İş teslim edildikten sonra aynı gün</span></div>
+  </div>
+ </section>
+ <section>
+  <h2>Hazır WhatsApp mesajları</h2>
+  <div class="panel fields">
+   <div class="field"><label for="nm">Müşterinin adı</label><input id="nm" placeholder="ör. Ayşe" autocomplete="off"></div>
+   <div class="field"><label for="ln">Yorum linkin</label><input id="ln" placeholder="https://g.page/r/..." autocomplete="off"></div>
+  </div>
+  <div class="msg"><div class="head"><span class="tag">Kısa</span><button class="copy" data-target="m0" data-label="Kopyala">Kopyala</button></div><div class="bubble" id="m0" data-tpl="Merhaba [Ad], bugün geldiğiniz için teşekkürler 🙏 Memnun kaldıysanız 1 dakikanızı ayırıp Google&#x27;da yazar mısınız? Bizim gibi küçük işletmeler için çok şey değiştiriyor: [LİNK]">Merhaba [Ad], bugün geldiğiniz için teşekkürler 🙏 Memnun kaldıysanız 1 dakikanızı ayırıp Google&#x27;da yazar mısınız? Bizim gibi küçük işletmeler için çok şey değiştiriyor: [LİNK]</div></div><div class="msg"><div class="head"><span class="tag">Samimi (kuaför, güzellik)</span><button class="copy" data-target="m1" data-label="Kopyala">Kopyala</button></div><div class="bubble" id="m1" data-tpl="[Ad] Bey/Hanım, saçınız çok güzel oldu 😊 Bir ricam var: Google&#x27;da birkaç kelime yazarsanız yeni müşteriler bizi daha kolay buluyor. Link burada: [LİNK]">[Ad] Bey/Hanım, saçınız çok güzel oldu 😊 Bir ricam var: Google&#x27;da birkaç kelime yazarsanız yeni müşteriler bizi daha kolay buluyor. Link burada: [LİNK]</div></div><div class="msg"><div class="head"><span class="tag">Ertesi gün hatırlatma</span><button class="copy" data-target="m2" data-label="Kopyala">Kopyala</button></div><div class="bubble" id="m2" data-tpl="Merhaba [Ad], dünkü siparişiniz nasıldı? Bir sorun varsa bize yazın, hemen çözelim. Beğendiyseniz Google yorumunuz bizim için çok değerli: [LİNK]">Merhaba [Ad], dünkü siparişiniz nasıldı? Bir sorun varsa bize yazın, hemen çözelim. Beğendiyseniz Google yorumunuz bizim için çok değerli: [LİNK]</div></div><div class="msg"><div class="head"><span class="tag">Klinik / profesyonel</span><button class="copy" data-target="m3" data-label="Kopyala">Kopyala</button></div><div class="bubble" id="m3" data-tpl="Sayın [Ad], bugünkü randevunuz için teşekkür ederiz. Deneyiminizi Google&#x27;da paylaşırsanız başka hastalara da yol göstermiş olursunuz: [LİNK]">Sayın [Ad], bugünkü randevunuz için teşekkür ederiz. Deneyiminizi Google&#x27;da paylaşırsanız başka hastalara da yol göstermiş olursunuz: [LİNK]</div></div><div class="msg"><div class="head"><span class="tag">Usta / servis</span><button class="copy" data-target="m4" data-label="Kopyala">Kopyala</button></div><div class="bubble" id="m4" data-tpl="[Ad] Bey/Hanım, işiniz tamamlandı, iyi günlerde kullanın 🔧 Memnun kaldıysanız Google&#x27;da 1 cümle yazmanız bize çok yardımcı olur: [LİNK]">[Ad] Bey/Hanım, işiniz tamamlandı, iyi günlerde kullanın 🔧 Memnun kaldıysanız Google&#x27;da 1 cümle yazmanız bize çok yardımcı olur: [LİNK]</div></div>
+ </section>
+ <section>
+  <h2>Kasa kartı</h2>
+  <div class="card-print"><div class="big">Memnun kaldınız mı? 🙏</div><div>30 saniyenizi ayırın. Kameranızla okutun, Google'da bize yazın.</div><div class="qr">QR KOD</div></div>
+ </section>
+ <section>
+  <h2>Kurallar (önemli)</h2>
+  <ul class="rules">
+   <li><span class="x">✕</span><span>Yorum karşılığı indirim, hediye, çekiliş verme. Google bunu yasaklıyor; yorumlar silinebilir.</span></li>
+   <li><span class="x">✕</span><span>Sadece memnun müşteriye sorup diğerlerini atlama; bu da Google kurallarına aykırı. Herkese iste.</span></li>
+   <li><span class="x">✕</span><span>Sahte yorum ya da aileye toplu yorum yazdırma. Google filtreler, profilin zarar görür.</span></li>
+   <li><span class="y">✓</span><span>Her yoruma cevap ver; olumsuzlara 24 saat içinde, sakin ve kısa.</span></li>
+  </ul>
+ </section>
+
+ <section class="cta">
+  <h2>Yorum + harita sırası: biz kuralım</h2>
+  <p>İşletmenin adını ve semtini yaz; haritada kaçıncı olduğunu ve yorum farkını söyleyelim.</p>
+  <div class="btns">
+   <a class="btn wa" href="https://wa.me/905359288250?text=Merhaba%2C%20YORUM%20rehberinden%20geliyorum.%20%C4%B0%C5%9Fletmem%3A%20" target="_blank" rel="noopener">WhatsApp'tan yaz</a>
+   <a class="btn ig" href="https://www.instagram.com/enesceylanads/" target="_blank" rel="noopener">Instagram: @enesceylanads</a>
+  </div>
+  <div class="phone">WhatsApp: 0535 928 82 50</div>
+ </section>
+</div></main>
+<footer><div class="wrap"><span class="flogo" role="img" aria-label="nestmedia360"><span class="w">nestmedia</span><span class="sq"></span><span class="n">360</span></span><span>Google Ads Search sertifikalı · Meta + Google reklam yönetimi</span><span>Her gün yeni video: @enesceylanads (Instagram + TikTok)</span></div></footer>
+<script>window.EXTRA=function(){var n=document.getElementById('nm'),l=document.getElementById('ln');
+function f(){document.querySelectorAll('.bubble').forEach(function(b){var t=b.dataset.tpl;var a=n.value.trim(),k=l.value.trim();
+if(a)t=t.split('[Ad]').join(a);if(k)t=t.split('[LİNK]').join(k);b.textContent=t;});}
+n.addEventListener('input',f);l.addEventListener('input',f);}</script>
+<script>document.body.dataset.key='rehber-yorum';
+(function(){
+  var KEY=document.body.dataset.key;
+  var boxes=[].slice.call(document.querySelectorAll('ul.check input'));
+  var saved={};try{saved=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){}
+  function upd(){var n=boxes.filter(function(b){return b.checked}).length;var f=document.getElementById('fill'),c=document.getElementById('cnt');
+    if(f)f.style.width=(boxes.length?n/boxes.length*100:0)+'%';if(c)c.textContent=n+' / '+boxes.length;
+    try{var s={};boxes.forEach(function(b){s[b.id]=b.checked});localStorage.setItem(KEY,JSON.stringify(s))}catch(e){}}
+  boxes.forEach(function(b){if(saved[b.id])b.checked=true;b.addEventListener('change',upd)});upd();
+  document.querySelectorAll('button.copy').forEach(function(btn){btn.addEventListener('click',function(){
+    var el=document.getElementById(btn.dataset.target);var txt=el.innerText;
+    function ok(){btn.classList.add('done');btn.textContent='Kopyalandı ✓';setTimeout(function(){btn.classList.remove('done');btn.textContent=btn.dataset.label||'Kopyala'},1800)}
+    function sel(){var r=document.createRange();r.selectNodeContents(el);var s=window.getSelection();s.removeAllRanges();s.addRange(r);btn.textContent='Seçildi, kopyala'}
+    try{navigator.clipboard.writeText(txt).then(ok,sel)}catch(e){sel()}
+  })});
+  if(window.EXTRA)window.EXTRA();
+})();
+</script>
+
+</body></html>
