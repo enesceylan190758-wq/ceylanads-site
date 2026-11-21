@@ -48,7 +48,7 @@ try{
 
 
   /* ───────── content: German default, English ───────── */
-  var CONTACT={whatsapp:'902642769090'};
+  var CONTACT={whatsapp:'905492915858'};
   var I18N={tr:{
 og_k:"Yetkili satış bayisi · Erenler OSB",
 og_h1:"Magmaweld",
@@ -830,7 +830,7 @@ reel:"Ask a price"
 
 (function(){
 var $=function(s){return document.querySelector(s)},$$=function(s){return Array.prototype.slice.call(document.querySelectorAll(s))};
-var PHONE='902642769090';
+var PHONE='905492915858';
 var OCC={tr:{kaynak:'Kaynak Makineleri',sarf:'Kaynak Sarf',elektrikli:'Elektrikli Aletler',el:'El Aletleri',hirdavat:'Hırdavat',firma:'Firma Alımı'},
          en:{kaynak:'Welding machines',sarf:'Welding consumables',elektrikli:'Power tools',el:'Hand tools',hirdavat:'Hardware',firma:'Company order'}};
 var bk=$('#bk'),din=$('#bk-date'),tsel=$('#bk-time'),gE=$('#bk-g'),lines=$('#bk-lines'),tot=$('#bk-total'),wa=$('#bk-wa'),stick=$('#stick'),opener=null;
