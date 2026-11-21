@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /siparis
+
+Sitemap: https://adaceylanmakina.com/sitemap.xml

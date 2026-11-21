@@ -1,0 +1,5 @@
+Contact: https://wa.me/902642769090
+Contact: tel:+902642769090
+Expires: 2027-10-27T00:00:00.000Z
+Preferred-Languages: tr, en
+Canonical: https://adaceylanmakina.com/.well-known/security.txt
