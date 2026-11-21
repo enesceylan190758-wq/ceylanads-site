@@ -61,6 +61,43 @@
 .yrm-l p{margin:0;font-size:1.08rem;line-height:1.5;font-weight:600;letter-spacing:-.01em}
 .yrm-l span{color:var(--mute);font-size:.88rem}
 .rv-snd{display:none!important}
+.pbd{background:radial-gradient(120% 80% at 80% 0%,#23201a 0%,#0e0f11 55%);color:#f4efe6;padding:clamp(64px,9vw,130px) var(--gut)}
+.pbd-in{max-width:1280px;margin:0 auto}
+.pbd-k{font-size:.78rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#d9b469;margin:0 0 14px;display:flex;align-items:center;gap:12px}
+.pbd-k::before{content:"";width:34px;height:1px;background:#d9b469}
+.pbd-h{font-size:clamp(2rem,4.6vw,4rem);font-weight:700;letter-spacing:-.045em;line-height:1.02;margin:0;max-width:17ch}
+.pbd-p{color:rgba(244,239,230,.68);font-size:1.0625rem;line-height:1.55;max-width:54ch;margin:18px 0 clamp(32px,4vw,52px)}
+.pf{display:grid;grid-template-columns:1.15fr 1fr;border-radius:26px;overflow:hidden;border:1px solid rgba(217,180,105,.35);background:#15161a;box-shadow:0 40px 80px -40px rgba(0,0,0,.8)}
+.pf-ph{min-height:340px;position:relative}.pf-ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.pf-tx{padding:clamp(24px,3.4vw,48px);display:flex;flex-direction:column;align-items:flex-start;gap:14px}
+.pf-tx h3{font-size:clamp(1.5rem,2.4vw,2.2rem);letter-spacing:-.035em;line-height:1.08;margin:4px 0 0}
+.pf-tx p{margin:0;color:rgba(244,239,230,.7);line-height:1.5}
+.pf-tx .pill{margin-top:8px}
+.pb-plq{display:inline-grid;place-items:center;background:#fff;border-radius:14px;padding:12px 18px;box-shadow:0 10px 30px -12px rgba(0,0,0,.6)}
+.pb-plq img{height:30px;width:auto;max-width:170px;object-fit:contain;display:block}
+.pb-plq--lg img{height:40px;max-width:230px}
+.pb-seal{display:inline-flex;align-items:center;gap:7px;font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#d9b469}
+.pb-seal svg{width:18px;height:18px;color:#d9b469;flex:none}
+.pb-seal--gold{font-size:.8rem}
+.pb-ch{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.pb-ch li{font-size:.78rem;padding:5px 10px;border-radius:99px;border:1px solid rgba(244,239,230,.18);color:rgba(244,239,230,.82)}
+.pb-g{list-style:none;margin:14px 0 0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.pb{background:#15161a;border:1px solid rgba(244,239,230,.1);border-radius:22px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .4s,transform .5s var(--ease)}
+.pb:hover{border-color:rgba(217,180,105,.55);transform:translateY(-4px)}
+.pb-top{position:relative;aspect-ratio:16/10;display:grid;place-items:center;overflow:hidden}
+.pb-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.42) saturate(.8);transition:transform .8s var(--ease)}
+.pb:hover .pb-bg{transform:scale(1.06)}
+.pb-bg--pat{background:repeating-linear-gradient(135deg,#1b1c20 0 14px,#17181b 14px 28px);filter:none}
+.pb-top .pb-plq{position:relative}
+.pb-tx{padding:18px 18px 20px;display:flex;flex-direction:column;gap:9px;flex:1}
+.pb-tx h3{margin:0;font-size:1.2rem;letter-spacing:-.025em}
+.pb-tx p{margin:0;color:rgba(244,239,230,.66);font-size:.9rem;line-height:1.45}
+.pb-go{margin-top:auto;align-self:flex-start;background:none;border:0;padding:8px 0 0;font:inherit;font-weight:700;font-size:.9rem;color:#d9b469;cursor:pointer}
+.pb-go i{font-style:normal;display:inline-block;transition:transform .3s}.pb-go:hover i{transform:translateX(4px)}
+@media (max-width:1100px){.pb-g{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:860px){.pf{grid-template-columns:1fr}.pf-ph{min-height:0;aspect-ratio:16/10}}
+@media (max-width:520px){.pb-g{grid-template-columns:1fr}.pb-top{aspect-ratio:16/8}}
+
 .lgb{background:#fff;border-top:1px solid #eee;border-bottom:1px solid #eee;padding:clamp(22px,3vw,36px) var(--gut)}
 .lgb-k{text-align:center;font-size:.74rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);margin:0 0 16px}
 .lgb-g{list-style:none;margin:0 auto;padding:0;max-width:1180px;display:grid;grid-template-columns:repeat(5,1fr);gap:clamp(14px,3vw,44px);align-items:center}
@@ -563,14 +600,31 @@ html.bk-open{overflow:hidden}
   </section>
 
 
-  <section class="bnd wrap" id="markalar" aria-labelledby="h-bnd">
-    <p class="bnd-k" data-i18n="bnd_k">Bayiliklerimiz ve markalar</p>
-    <h2 class="h2" id="h-bnd" data-i18n="bnd_h">Güvendiğiniz markalar, tek çatı altında.</h2>
-    <p class="bnd-p" data-i18n="bnd_p">Magmaweld yetkili bayisi; Bosch, İzeltaş, Karbosan ve Makina Takım bayisiyiz. Raflarımızda Metabo, Abicor Binzel, Varta ve Loxeal gibi markalar da var.</p>
-    <ul class="bn-g bn-g--bayi"><li class="bn bn--b"><div class="bn-ph"><img src="assets/img/magmaweld-bayi-960.webp" srcset="assets/img/magmaweld-bayi-480.webp 480w, assets/img/magmaweld-bayi-960.webp 960w" sizes="(max-width:700px) 50vw, 25vw" alt="Magmaweld" width="600" height="600" loading="lazy" decoding="async"></div><div class="bn-tx"><img class="bn-lg" src="assets/img/marka/magmaweld.png" alt="Magmaweld logosu" width="160" height="40" loading="lazy"><span class="bn-tag" data-i18n="b1t">Yetkili Bayi</span><b>Magmaweld</b><p data-i18n="b1d">Kaynak makineleri, elektrod ve kaynak telleri.</p></div></li><li class="bn bn--b"><div class="bn-ph"><img src="assets/img/bosch-duvar-960.webp" srcset="assets/img/bosch-duvar-480.webp 480w, assets/img/bosch-duvar-960.webp 960w" sizes="(max-width:700px) 50vw, 25vw" alt="Bosch Profesyonel" width="600" height="600" loading="lazy" decoding="async"></div><div class="bn-tx"><img class="bn-lg" src="assets/img/marka/bosch.svg" alt="Bosch logosu" width="160" height="40" loading="lazy"><span class="bn-tag" data-i18n="b2t">Bayi</span><b>Bosch Profesyonel</b><p data-i18n="b2d">Matkap, kırıcı-delici, taşlama ve akülü aletler.</p></div></li><li class="bn bn--b"><div class="bn-ph"><img src="assets/img/izeltas-el-aletleri-960.webp" srcset="assets/img/izeltas-el-aletleri-480.webp 480w, assets/img/izeltas-el-aletleri-960.webp 960w" sizes="(max-width:700px) 50vw, 25vw" alt="İzeltaş" width="600" height="600" loading="lazy" decoding="async"></div><div class="bn-tx"><img class="bn-lg" src="assets/img/marka/izeltas.svg" alt="İzeltaş logosu" width="160" height="40" loading="lazy"><span class="bn-tag" data-i18n="b3t">Bayi</span><b>İzeltaş</b><p data-i18n="b3d">Pense, anahtar, tornavida ve lokma takımları.</p></div></li><li class="bn bn--b"><div class="bn-ph"><img src="assets/img/karbosan-arac-960.webp" srcset="assets/img/karbosan-arac-480.webp 480w, assets/img/karbosan-arac-960.webp 960w" sizes="(max-width:700px) 50vw, 25vw" alt="Karbosan" width="600" height="600" loading="lazy" decoding="async"></div><div class="bn-tx"><img class="bn-lg bn-lg--k" src="assets/img/marka/karbosan.svg" alt="Karbosan logosu" width="160" height="40" loading="lazy"><span class="bn-tag" data-i18n="b6t">Bayi</span><b>Karbosan</b><p data-i18n="b6d">Kesme, taşlama diskleri ve zımparalar.</p></div></li><li class="bn bn--b"><div class="bn-ph bn-ph--lg"><img src="assets/img/marka/makina-takim.svg" alt="Makina Takım" width="312" height="89" loading="lazy" decoding="async"></div><div class="bn-tx"><span class="bn-tag" data-i18n="b9t">Bayi</span><b>Makina Takım</b><p data-i18n="b9d">Matkap uçları, kılavuz, pafta ve frezeler.</p></div></li></ul>
-    <p class="bnd-k bnd-k--raf" data-i18n="raf_k">Raflarımızda ayrıca</p>
+  <section class="pbd" id="markalar" aria-labelledby="h-bnd">
+    <div class="pbd-in">
+      <p class="pbd-k" data-i18n="bnd_k">Resmî bayiliklerimiz</p>
+      <h2 class="pbd-h" id="h-bnd" data-i18n="bnd_h">Türkiye'nin güvendiği markalar, Sakarya'da bizde.</h2>
+      <p class="pbd-p" data-i18n="bnd_p">Ürünleri doğrudan üreticinin bayi kanalından alıyoruz: orijinal ürün, faturalı satış, yetkili bayi güvencesi.</p>
+      <article class="pf">
+        <div class="pf-ph"><img src="assets/img/magmaweld-bayi-960.webp" srcset="assets/img/magmaweld-bayi-480.webp 480w, assets/img/magmaweld-bayi-960.webp 960w, assets/img/magmaweld-bayi-1400.webp 1400w" sizes="(max-width:860px) 100vw, 55vw" alt="Ada Ceylan Makina Magmaweld yetkili bayi vitrini" loading="lazy" decoding="async"></div>
+        <div class="pf-tx">
+          <span class="pb-plq pb-plq--lg"><img src="assets/img/marka/magmaweld.png" alt="Magmaweld" loading="lazy"></span>
+          <span class="pb-seal pb-seal--gold"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.4 1.8 3-.2.9 2.9 2.5 1.7-1 2.8 1 2.8-2.5 1.7-.9 2.9-3-.2L12 22l-2.4-1.8-3 .2-.9-2.9L3.2 15.8l1-2.8-1-2.8 2.5-1.7.9-2.9 3 .2z" fill="currentColor"/><path d="M8.2 12.3l2.5 2.5 5-5.1" fill="none" stroke="#0e0f11" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="b1t">Yetkili Bayi</span></span>
+          <h3 data-i18n="pf_h">Kaynakta Magmaweld yetkili bayisi.</h3>
+          <p data-i18n="b1d">Kaynak makineleri, elektrod ve kaynak telleri.</p>
+          <ul class="pb-ch"><li>Inverter kaynak makinesi</li><li>Gazaltı (MIG/MAG)</li><li>Elektrod</li><li>Gazaltı teli</li><li>Torç ve sarf</li></ul>
+          <button type="button" class="pill pill--gold" data-book data-occ="kaynak" data-i18n="pf_go">Magmaweld fiyatı sor</button>
+        </div>
+      </article>
+      <ul class="pb-g"><li class="pb"><div class="pb-top"><img class="pb-bg" src="assets/img/bosch-duvar-960.webp" srcset="assets/img/bosch-duvar-480.webp 480w, assets/img/bosch-duvar-960.webp 960w" sizes="(max-width:700px) 100vw, 25vw" alt="" loading="lazy" decoding="async"><span class="pb-plq"><img src="assets/img/marka/bosch.svg" alt="Bosch Profesyonel" loading="lazy"></span></div><div class="pb-tx"><span class="pb-seal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.4 1.8 3-.2.9 2.9 2.5 1.7-1 2.8 1 2.8-2.5 1.7-.9 2.9-3-.2L12 22l-2.4-1.8-3 .2-.9-2.9L3.2 15.8l1-2.8-1-2.8 2.5-1.7.9-2.9 3 .2z" fill="currentColor"/><path d="M8.2 12.3l2.5 2.5 5-5.1" fill="none" stroke="#0e0f11" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="pb_r">Resmî bayi</span></span><h3>Bosch Profesyonel</h3><p data-i18n="b2d"></p><ul class="pb-ch"><li>Matkap</li><li>Kırıcı-delici</li><li>Taşlama</li><li>Akülü seri</li></ul><button type="button" class="pb-go" data-book data-occ="elektrikli"><span data-i18n="pb_go">Bu markadan fiyat sor</span> <i aria-hidden="true">→</i></button></div></li><li class="pb"><div class="pb-top"><img class="pb-bg" src="assets/img/izeltas-el-aletleri-960.webp" srcset="assets/img/izeltas-el-aletleri-480.webp 480w, assets/img/izeltas-el-aletleri-960.webp 960w" sizes="(max-width:700px) 100vw, 25vw" alt="" loading="lazy" decoding="async"><span class="pb-plq"><img src="assets/img/marka/izeltas.svg" alt="İzeltaş" loading="lazy"></span></div><div class="pb-tx"><span class="pb-seal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.4 1.8 3-.2.9 2.9 2.5 1.7-1 2.8 1 2.8-2.5 1.7-.9 2.9-3-.2L12 22l-2.4-1.8-3 .2-.9-2.9L3.2 15.8l1-2.8-1-2.8 2.5-1.7.9-2.9 3 .2z" fill="currentColor"/><path d="M8.2 12.3l2.5 2.5 5-5.1" fill="none" stroke="#0e0f11" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="pb_r">Resmî bayi</span></span><h3>İzeltaş</h3><p data-i18n="b3d"></p><ul class="pb-ch"><li>Pense</li><li>Anahtar</li><li>Lokma</li><li>Takım dolabı</li></ul><button type="button" class="pb-go" data-book data-occ="el"><span data-i18n="pb_go">Bu markadan fiyat sor</span> <i aria-hidden="true">→</i></button></div></li><li class="pb"><div class="pb-top"><img class="pb-bg" src="assets/img/karbosan-arac-960.webp" srcset="assets/img/karbosan-arac-480.webp 480w, assets/img/karbosan-arac-960.webp 960w" sizes="(max-width:700px) 100vw, 25vw" alt="" loading="lazy" decoding="async"><span class="pb-plq"><img src="assets/img/marka/karbosan.svg" alt="Karbosan" class="bn-lg--k" loading="lazy"></span></div><div class="pb-tx"><span class="pb-seal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.4 1.8 3-.2.9 2.9 2.5 1.7-1 2.8 1 2.8-2.5 1.7-.9 2.9-3-.2L12 22l-2.4-1.8-3 .2-.9-2.9L3.2 15.8l1-2.8-1-2.8 2.5-1.7.9-2.9 3 .2z" fill="currentColor"/><path d="M8.2 12.3l2.5 2.5 5-5.1" fill="none" stroke="#0e0f11" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="pb_r">Resmî bayi</span></span><h3>Karbosan</h3><p data-i18n="b6d"></p><ul class="pb-ch"><li>Kesme diski</li><li>Taşlama diski</li><li>Flap disk</li><li>Zımpara</li></ul><button type="button" class="pb-go" data-book data-occ="hirdavat"><span data-i18n="pb_go">Bu markadan fiyat sor</span> <i aria-hidden="true">→</i></button></div></li><li class="pb"><div class="pb-top"><span class="pb-bg pb-bg--pat"></span><span class="pb-plq"><img src="assets/img/marka/makina-takim.svg" alt="Makina Takım" loading="lazy"></span></div><div class="pb-tx"><span class="pb-seal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.4 1.8 3-.2.9 2.9 2.5 1.7-1 2.8 1 2.8-2.5 1.7-.9 2.9-3-.2L12 22l-2.4-1.8-3 .2-.9-2.9L3.2 15.8l1-2.8-1-2.8 2.5-1.7.9-2.9 3 .2z" fill="currentColor"/><path d="M8.2 12.3l2.5 2.5 5-5.1" fill="none" stroke="#0e0f11" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="pb_r">Resmî bayi</span></span><h3>Makina Takım</h3><p data-i18n="b9d"></p><ul class="pb-ch"><li>Matkap ucu</li><li>Kılavuz</li><li>Pafta</li><li>Freze</li></ul><button type="button" class="pb-go" data-book data-occ="hirdavat"><span data-i18n="pb_go">Bu markadan fiyat sor</span> <i aria-hidden="true">→</i></button></div></li></ul>
+    </div>
+  </section>
+
+  <section class="bnd wrap" aria-labelledby="h-raf">
+    <p class="bnd-k" id="h-raf" data-i18n="raf_k">Raflarımızda ayrıca</p>
     <ul class="bn-g bn-g--raf"><li class="bn"><div class="bn-ph"><img src="assets/img/metabo-duvar-960.webp" srcset="assets/img/metabo-duvar-480.webp 480w, assets/img/metabo-duvar-960.webp 960w" sizes="(max-width:700px) 50vw, 25vw" alt="Metabo" width="600" height="600" loading="lazy" decoding="async"></div><div class="bn-tx"><span class="bn-tag" data-i18n="b4t">Raflarımızda</span><b>Metabo</b><p data-i18n="b4d">Profesyonel elektrikli el aletleri.</p></div></li><li class="bn"><div class="bn-ph"><img src="assets/img/binzel-stand-960.webp" srcset="assets/img/binzel-stand-480.webp 480w, assets/img/binzel-stand-960.webp 960w" sizes="(max-width:700px) 50vw, 25vw" alt="Abicor Binzel" width="600" height="600" loading="lazy" decoding="async"></div><div class="bn-tx"><span class="bn-tag" data-i18n="b5t">Raflarımızda</span><b>Abicor Binzel</b><p data-i18n="b5d">Gazaltı torçları, meme ve nozullar.</p></div></li><li class="bn"><div class="bn-ph"><img src="assets/img/varta-raf-960.webp" srcset="assets/img/varta-raf-480.webp 480w, assets/img/varta-raf-960.webp 960w" sizes="(max-width:700px) 50vw, 25vw" alt="Varta" width="600" height="600" loading="lazy" decoding="async"></div><div class="bn-tx"><span class="bn-tag" data-i18n="b7t">Raflarımızda</span><b>Varta</b><p data-i18n="b7d">Pil ve el fenerleri.</p></div></li><li class="bn"><div class="bn-ph"><img src="assets/img/loxeal-raf-960.webp" srcset="assets/img/loxeal-raf-480.webp 480w, assets/img/loxeal-raf-960.webp 960w" sizes="(max-width:700px) 50vw, 25vw" alt="Loxeal" width="600" height="600" loading="lazy" decoding="async"></div><div class="bn-tx"><span class="bn-tag" data-i18n="b8t">Raflarımızda</span><b>Loxeal</b><p data-i18n="b8d">Yapıştırıcı ve sızdırmazlık ürünleri.</p></div></li></ul>
   </section>
+
 
 
   <section class="kat wrap" id="urun-gruplari" aria-labelledby="h-kat">
@@ -891,5 +945,5 @@ html{-webkit-tap-highlight-color:transparent}
 .nav .pill.rv-bounce{animation:rvBounce .6s cubic-bezier(.28,.84,.42,1)}
 @media (prefers-reduced-motion:reduce){.nav .pill.rv-bounce{animation:none}}
 </style>
-<script src="assets/js/app.bc2b9d2d21.js" defer></script>
+<script src="assets/js/app.515aac1711.js" defer></script>
 </body></html>

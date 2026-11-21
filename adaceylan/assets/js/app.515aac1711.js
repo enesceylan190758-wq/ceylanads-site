@@ -229,9 +229,9 @@ m_tot:"Talep",
 m_send:"WhatsApp ile gönder",
 m_call:"Hemen ara: 0264 276 90 90",
 m_fine:"Mesajınız WhatsApp'tan doğrudan mağazaya gider; fiyat ve stok bilgisi size yazılır.",
-bnd_k:"Bayiliklerimiz ve markalar",
-bnd_h:"Güvendiğiniz markalar, tek çatı altında.",
-bnd_p:"Magmaweld yetkili bayisi; Bosch, İzeltaş, Karbosan ve Makina Takım bayisiyiz. Raflarımızda Metabo, Abicor Binzel, Varta ve Loxeal gibi markalar da var.",
+bnd_k:"Resmî bayiliklerimiz",
+bnd_h:"Türkiye'nin güvendiği markalar, Sakarya'da bizde.",
+bnd_p:"Ürünleri doğrudan üreticinin bayi kanalından alıyoruz: orijinal ürün, faturalı satış, yetkili bayi güvencesi.",
 b9t:"Bayi",
 b9d:"Matkap uçları, kılavuz, pafta ve frezeler.",
 raf_k:"Raflarımızda ayrıca",
@@ -271,9 +271,17 @@ k7:"Hırdavat ve Kimyasallar",
 k8:"Yük Taşıma ve Kompresör",
 hero_h:"Kaynaktan hırdavata, işinizin her parçası burada.",
 hero_b:"Sakarya 1. OSB, Erenler · Toptan ve perakende",
+pb_r:"Resmî bayi",
+pb_go:"Bu markadan fiyat sor",
+pf_h:"Kaynakta Magmaweld yetkili bayisi.",
+pf_go:"Magmaweld fiyatı sor",
 reel_label:"Fiyat sor",
 reel:"Fiyat sor"
 }};I18N.en={
+pf_go:"Ask a Magmaweld price",
+pf_h:"Authorised Magmaweld dealer for welding.",
+pb_go:"Ask a price for this brand",
+pb_r:"Official dealer",
 hero_h:"From welding to hardware, every part of your job is here.",
 hero_b:"Sakarya 1st OIZ, Erenler · Wholesale and retail",
 og_k:"Authorised dealer · Erenler OSB",
@@ -455,9 +463,9 @@ m_tot:"Request",
 m_send:"Send on WhatsApp",
 m_call:"Call now: +90 264 276 90 90",
 m_fine:"Your message goes straight to the store via WhatsApp; we reply with price and availability.",
-bnd_k:"Our dealerships and brands",
-bnd_h:"Brands you trust, under one roof.",
-bnd_p:"We are an authorised Magmaweld dealer and a Bosch, İzeltaş, Karbosan and Makina Takım dealer. You will also find brands such as Metabo, Abicor Binzel, Varta and Loxeal on our shelves.",
+bnd_k:"Our official dealerships",
+bnd_h:"Brands Türkiye trusts, here in Sakarya.",
+bnd_p:"We buy directly through each manufacturer's dealer channel: genuine products, invoiced sales, the assurance of an official dealer.",
 b9t:"Dealer",
 b9d:"Drill bits, taps, dies and milling cutters.",
 raf_k:"Also on our shelves",
@@ -940,7 +948,7 @@ try{
 (function(){
   if(!('IntersectionObserver' in window))return;
   if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
-  var sel='.kt,.bn,.yrm-l li,.tour-p,.emb--tour,.emb-alt,.loc-t,.emb--map,.dir,.faq details,.steps li,.close-row,.more li,.intro p';
+  var sel='.pb,.kt,.bn,.yrm-l li,.tour-p,.emb--tour,.emb-alt,.loc-t,.emb--map,.dir,.faq details,.steps li,.close-row,.more li,.intro p';
   var els=[].slice.call(document.querySelectorAll(sel));
   var io=new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('on'); io.unobserve(e.target);} }); },{threshold:.12,rootMargin:'0px 0px -6% 0px'});
   els.forEach(function(el,i){ if(el.getBoundingClientRect().top<innerHeight*.9)return; el.classList.add('rv-in'); el.style.transitionDelay=(i%4)*60+'ms'; io.observe(el); });
