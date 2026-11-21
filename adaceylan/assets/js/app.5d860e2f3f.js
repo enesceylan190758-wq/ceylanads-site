@@ -253,6 +253,18 @@ b8d:"Yapıştırıcı ve sızdırmazlık ürünleri.",
 rv1:"“Her zaman hizmet için yerimizde hazırız, ticaret olmasa bile çayımızı içmeye bekleriz.”",
 rv2:"“Harika bir ekip; sabah bile güler yüzlüler, ilgi süper.”",
 rv3:"“Kalitesi ve fiyatlardaki avantajı fark ediliyor; personeli güler yüzlü ve çalışkan.”",
+kat_k:"Ürün gruplarımız",
+kat_h:"Atölyeden şantiyeye, ihtiyacınız olan her şey.",
+kat_p:"Binlerce çeşit ürün rafta; aradığınız yoksa kısa sürede getirtiyoruz. Bir ürün grubuna dokunun, fiyat sorun.",
+kt_b:"Fiyat sor →",
+k1:"Elektrikli El Aletleri",
+k2:"El Aletleri",
+k3:"Kaynak Ekipmanları",
+k4:"Ölçü Aletleri",
+k5:"İş Güvenliği",
+k6:"Makina Aksesuarları",
+k7:"Hırdavat ve Kimyasallar",
+k8:"Yük Taşıma ve Kompresör",
 reel_label:"Fiyat sor",
 reel:"Fiyat sor"
 }};I18N.en={
@@ -459,6 +471,18 @@ b8d:"Adhesives and sealants.",
 rv1:"“We are always here to serve you; even without business, come by for a tea.”",
 rv2:"“A great team; friendly even early in the morning, excellent attention.”",
 rv3:"“You can tell the quality and the price advantage; the staff are friendly and hard-working.”",
+kat_k:"Product groups",
+kat_h:"From the workshop to the site, everything you need.",
+kat_p:"Thousands of products on the shelf; if it is not in stock we source it quickly. Tap a group to ask for a price.",
+kt_b:"Ask a price →",
+k1:"Power Tools",
+k2:"Hand Tools",
+k3:"Welding Equipment",
+k4:"Measuring Tools",
+k5:"Work Safety",
+k6:"Machine Accessories",
+k7:"Hardware and Chemicals",
+k8:"Lifting and Compressors",
 reel_label:"Ask a price",
 reel:"Ask a price"
 };
@@ -904,7 +928,7 @@ try{
 (function(){
   if(!('IntersectionObserver' in window))return;
   if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
-  var sel='.bn,.yrm-l li,.tour-p,.emb--tour,.emb-alt,.loc-t,.emb--map,.dir,.faq details,.steps li,.close-row,.more li,.intro p';
+  var sel='.kt,.bn,.yrm-l li,.tour-p,.emb--tour,.emb-alt,.loc-t,.emb--map,.dir,.faq details,.steps li,.close-row,.more li,.intro p';
   var els=[].slice.call(document.querySelectorAll(sel));
   var io=new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('on'); io.unobserve(e.target);} }); },{threshold:.12,rootMargin:'0px 0px -6% 0px'});
   els.forEach(function(el,i){ if(el.getBoundingClientRect().top<innerHeight*.9)return; el.classList.add('rv-in'); el.style.transitionDelay=(i%4)*60+'ms'; io.observe(el); });
