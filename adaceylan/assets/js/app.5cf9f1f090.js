@@ -93,7 +93,7 @@ st_sr:"Erenler OSB'de ustaya lazım olan: kaynak makinesi, elektrod, matkap, el 
 st1:"Erenler OSB'de",
 st2:"ustaya lazım:",
 cyc:["kaynak makinesi.", "elektrod.", "matkap.", "el aletleri.", "hırdavat."],
-mani_label:"Ada Ceylan Makina",
+mani_label:"Ada Ceylan Makine",
 mani:"Atölyede, şantiyede ya da fabrikada: <em class='a'>kaynak makinesinden elektroda, matkaptan pense takımına</em> işinize lazım olan burada. Organize sanayinin içinde, güler yüzle ve doğru ürünle.",
 more1:"Ürünlerimiz",
 more2:"Nasıl sipariş verilir",
@@ -120,7 +120,7 @@ w3:"Her işe.",
 w4a:"Aradığınız ürün",
 w4b:"burada.",
 intro:"Kaynak makinesi ve sarfından elektrikli aletlere, el aletlerinden hırdavata kadar atölyenin ihtiyacı tek adreste.",
-ch_label:"Neden Ada Ceylan Makina",
+ch_label:"Neden Ada Ceylan Makine",
 ch1k:"Bayi",
 ch1h:"Magmaweld yetkili bayi",
 ch1:"Kaynak makinesi ve sarfı yetkili satış noktasından.",
@@ -141,10 +141,10 @@ s4:"Siparişinizi yazın; hazırlayıp adresinize ulaştıralım.",
 a1:"Magmaweld yetkili bayi vitrini",
 a2:"Elektrikli el aletleri reyonu",
 a3:"El aletleri duvarı",
-a4:"Ada Ceylan Makina mağazası",
+a4:"Ada Ceylan Makine mağazası",
 proc_h:"Nasıl sipariş verilir?",
-rv_cap:"Sakarya 1. Organize Sanayi Bölgesi, Fevzi Çakmak Caddesi No:52.",
-rv_alt:"Ada Ceylan Makina mağazası, Erenler OSB",
+rv_cap:"Sakarya 1. Organize Sanayi Bölgesi, Fevzi Çakmak Caddesi No:54.",
+rv_alt:"Ada Ceylan Makine mağazası, Erenler OSB",
 st1_alt:"Magmaweld ürün rafı",
 st2_alt:"Kaynak sarf malzemeleri",
 st3_alt:"Elektrikli alet reyonu",
@@ -167,7 +167,7 @@ ac5t:"Gazaltı torçları ve bağlantı parçaları.",
 ac5a:"Kaynak torçları",
 ac6k:"Mağazamız",
 ac6t:"Organize sanayinin içinde, geniş otoparkıyla.",
-ac6a:"Ada Ceylan Makina mağaza cephesi",
+ac6a:"Ada Ceylan Makine mağaza cephesi",
 whl_h:"Tek adres. Her iş.",
 whl_c:"Hepsi Ada Ceylan'da.",
 whl_sr:"Kaynak makinesi, elektrod, kaynak teli, torç, matkap, taşlama, pense, anahtar, hırdavat ve adrese servis.",
@@ -182,7 +182,7 @@ p4:"Mağazadan alın ya da adresinize gelsin.",
 terms1:"Fiyat sormak ücretsizdir.",
 terms2:"Ürünün fotoğrafını göndermeniz yeterli.",
 loc_h:"Erenler OSB'de.",
-addr:"Yeşiltepe Mah., Fevzi Çakmak Cd. No:52, Sakarya 1. Organize Sanayi Bölgesi, 54200 Erenler / Sakarya",
+addr:"Yeşiltepe Mah., Fevzi Çakmak Cd. No:54, Sakarya 1. Organize Sanayi Bölgesi, 54200 Erenler / Sakarya",
 dir:"Google Haritalar'da aç",
 lt1b:"Hafta içi",
 lt2b:"Cumartesi",
@@ -195,7 +195,7 @@ d1:"🚗 Arabayla yol tarifi",
 d2:"🚌 Toplu taşımayla",
 faq_h:"Merak edilenler",
 q1:"Mağazanız nerede?",
-q1a:"Sakarya 1. Organize Sanayi Bölgesi'nde, Fevzi Çakmak Caddesi No:52'deyiz (Yeşiltepe, Erenler). Yol tarifi butonuyla Google Haritalar'da açabilirsiniz.",
+q1a:"Sakarya 1. Organize Sanayi Bölgesi'nde, Fevzi Çakmak Caddesi No:54'deyiz (Yeşiltepe, Erenler). Yol tarifi butonuyla Google Haritalar'da açabilirsiniz.",
 q2:"Çalışma saatleriniz nedir?",
 q2a:"Hafta içi 08:00–18:00, cumartesi 08:00–16:00 açığız. Pazar kapalıyız.",
 q3:"Magmaweld makineler için servis veriyor musunuz?",
@@ -327,7 +327,7 @@ st_sr:"What a tradesman needs in Erenler OSB: welding machines, electrodes, dril
 st1:"In Erenler OSB,",
 st2:"for the trade:",
 cyc:["welding machines.", "electrodes.", "drills.", "hand tools.", "hardware."],
-mani_label:"Ada Ceylan Makina",
+mani_label:"Ada Ceylan Makine",
 mani:"In the workshop, on site or in the factory: <em class='a'>from welding machines to electrodes, from drills to plier sets</em>, what your job needs is here. Inside the industrial zone, with a smile and the right product.",
 more1:"Our products",
 more2:"How to order",
@@ -354,7 +354,7 @@ w3:"For every job.",
 w4a:"What you need",
 w4b:"is here.",
 intro:"From welding machines and consumables to power tools, hand tools and hardware: everything a workshop needs at one address.",
-ch_label:"Why Ada Ceylan Makina",
+ch_label:"Why Ada Ceylan Makine",
 ch1k:"Dealer",
 ch1h:"Magmaweld authorised dealer",
 ch1:"Welding machines and consumables from an authorised sales point.",
@@ -375,10 +375,10 @@ s4:"Send us your order; we prepare it and deliver to your address.",
 a1:"Magmaweld dealer window",
 a2:"Power tools aisle",
 a3:"Hand tools wall",
-a4:"Ada Ceylan Makina store",
+a4:"Ada Ceylan Makine store",
 proc_h:"How to order",
-rv_cap:"Sakarya 1st Organised Industrial Zone, Fevzi Çakmak Street No:52.",
-rv_alt:"Ada Ceylan Makina store at night",
+rv_cap:"Sakarya 1st Organised Industrial Zone, Fevzi Çakmak Street No:54.",
+rv_alt:"Ada Ceylan Makine store, Erenler OSB",
 st1_alt:"Magmaweld product shelf",
 st2_alt:"Welding consumables",
 st3_alt:"Power tools aisle",
@@ -401,7 +401,7 @@ ac5t:"MIG torches and fittings.",
 ac5a:"Welding torches",
 ac6k:"Our Store",
 ac6t:"Inside the industrial zone, with plenty of parking.",
-ac6a:"Ada Ceylan Makina store front",
+ac6a:"Ada Ceylan Makine store front",
 whl_h:"One address. Every job.",
 whl_c:"All at Ada Ceylan.",
 whl_sr:"Welding machines, electrodes, welding wire, torches, drills, grinders, pliers, spanners, hardware and delivery.",
@@ -416,7 +416,7 @@ p4:"Pick it up at the store or have it delivered.",
 terms1:"Asking for a price is free.",
 terms2:"Just send a photo of the product.",
 loc_h:"In Erenler OSB.",
-addr:"Yeşiltepe, Fevzi Çakmak St. No:52, Sakarya 1st Organised Industrial Zone, 54200 Erenler / Sakarya",
+addr:"Yeşiltepe, Fevzi Çakmak St. No:54, Sakarya 1st Organised Industrial Zone, 54200 Erenler / Sakarya",
 dir:"Open in Google Maps",
 lt1b:"Weekdays",
 lt2b:"Saturday",
@@ -429,7 +429,7 @@ d1:"🚗 Driving directions",
 d2:"🚌 By public transport",
 faq_h:"Questions",
 q1:"Where is your store?",
-q1a:"We are in Sakarya 1st Organised Industrial Zone, Fevzi Çakmak Street No:52 (Yeşiltepe, Erenler). Tap the directions button to open us in Google Maps.",
+q1a:"We are in Sakarya 1st Organised Industrial Zone, Fevzi Çakmak Street No:54 (Yeşiltepe, Erenler). Tap the directions button to open us in Google Maps.",
 q2:"What are your opening hours?",
 q2a:"Weekdays 08:00–18:00, Saturday 08:00–16:00. Closed on Sunday.",
 q3:"Do you service Magmaweld machines?",
@@ -508,7 +508,7 @@ reel:"Ask a price"
 };
   var lang='tr', ready0=false;
   try{var q=new URLSearchParams(location.search).get('lang');if(q==='en'||q==='tr')lang=q;else{var s=localStorage.getItem('lang');if(s==='en')lang='en'}}catch(e){}
-  function waLinks(l){var t=l==='en'?'Hello, I would like price and stock information from Ada Ceylan Makina.':'Merhaba, Ada Ceylan Makina\'dan fiyat ve stok bilgisi almak istiyorum.';document.querySelectorAll('.wa').forEach(function(a){a.href='https://wa.me/'+CONTACT.whatsapp+'?text='+encodeURIComponent(t)})}waLinks(lang);document.addEventListener('rv-lang',function(e){waLinks(e.detail)});
+  function waLinks(l){var t=l==='en'?'Hello, I would like price and stock information from Ada Ceylan Makine.':'Merhaba, Ada Ceylan Makine\'dan fiyat ve stok bilgisi almak istiyorum.';document.querySelectorAll('.wa').forEach(function(a){a.href='https://wa.me/'+CONTACT.whatsapp+'?text='+encodeURIComponent(t)})}waLinks(lang);document.addEventListener('rv-lang',function(e){waLinks(e.detail)});
   
   var mani=$('#mani'), words=[], cyc=$('#cyc'), ci=0;
   function splitMani(){
@@ -547,7 +547,7 @@ reel:"Ask a price"
     if(ready0)update();
   }
   document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',function(){var l=b.getAttribute('data-lang');try{localStorage.setItem('lang',l)}catch(e){}setLang(l)})});
-  var brand='Ada Ceylan Makina';
+  var brand='Ada Ceylan Makine';
   setLang(lang);
   requestAnimationFrame(function(){requestAnimationFrame(function(){$('.hero').classList.add('in')})});
 
@@ -851,7 +851,7 @@ function calc(){
   if(name)rows.push([en?'Name':'Ad / firma',name]);
   lines.innerHTML=rows.map(function(r){return '<div><span>'+esc(String(r[0]))+'</span><em>'+esc(String(r[1]))+'</em></div>'}).join('');
   tot.textContent=o;
-  var msg=(en?'Hello, I would like a price from Ada Ceylan Makina.\n':'Merhaba, Ada Ceylan Makina\'dan fiyat almak istiyorum.\n')+rows.map(function(r){return r[0]+': '+r[1]}).join('\n')+(en?'\nCould you send price and availability? Thank you.':'\nFiyat ve stok bilgisi iletebilir misiniz? Teşekkürler.');
+  var msg=(en?'Hello, I would like a price from Ada Ceylan Makine.\n':'Merhaba, Ada Ceylan Makine\'dan fiyat almak istiyorum.\n')+rows.map(function(r){return r[0]+': '+r[1]}).join('\n')+(en?'\nCould you send price and availability? Thank you.':'\nFiyat ve stok bilgisi iletebilir misiniz? Teşekkürler.');
   wa.href='https://wa.me/'+PHONE+'?text='+encodeURIComponent(msg);wa.classList.remove('off');
 }
 function open(o,el){
@@ -922,7 +922,7 @@ try{
     if(done)return; done=true;
     var f=document.createElement('iframe');
     f.src=box.getAttribute('data-src'); f.loading='lazy'; f.allowFullscreen=true;
-    f.referrerPolicy='no-referrer-when-downgrade'; f.title='Ada Ceylan Makina';
+    f.referrerPolicy='no-referrer-when-downgrade'; f.title='Ada Ceylan Makine';
     f.setAttribute('allow','fullscreen; accelerometer; gyroscope');
     var t=setTimeout(function(){ if(!f.classList.contains('ok')) fail(); },15000);
     f.addEventListener('load',function(){ clearTimeout(t); f.classList.add('ok'); var g=box.querySelector('.emb-go'); if(g) g.style.display='none'; });
