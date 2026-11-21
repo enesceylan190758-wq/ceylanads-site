@@ -1,0 +1,29 @@
+name: adaceylan-gorsel
+on:
+  push:
+    branches: [main]
+    paths: ['adaceylan/gorsel.json', '.github/workflows/adaceylan-gorsel.yml']
+  workflow_dispatch:
+permissions: { contents: write }
+jobs:
+  dl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install pillow==11.0.0
+      - run: |
+          python3 - <<'P'
+          import json,io,urllib.request
+          from PIL import Image
+          for k,u in json.load(open('adaceylan/gorsel.json')).items():
+              try:
+                  d=urllib.request.urlopen(urllib.request.Request(u,headers={'User-Agent':'Mozilla/5.0'}),timeout=60).read()
+                  im=Image.open(io.BytesIO(d)).convert('RGBA'); bg=Image.new('RGB',im.size,(255,255,255)); bg.paste(im,mask=im.split()[3]); im=bg
+                  s=max(im.size); c=Image.new('RGB',(s,s),(255,255,255)); c.paste(im,((s-im.width)//2,(s-im.height)//2))
+                  for w in (480,960):
+                      (c if s<=w else c.resize((w,w),Image.LANCZOS)).save(f'adaceylan/assets/img/{k}-{w}.webp','WEBP',quality=88)
+                  print('ok',k,im.size)
+              except Exception as e: print('ERR',k,e)
+          P
+          git config user.name "github-actions[bot]"; git config user.email "41898+github-actions[bot]@users.noreply.github.com"
+          git add adaceylan/assets/img && (git diff --cached --quiet || (git commit -m "adaceylan: ürün görselleri" && git push))
