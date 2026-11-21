@@ -60,6 +60,21 @@
 .yrm-l li{background:var(--tile);border-radius:20px;padding:24px;display:flex;flex-direction:column;gap:14px}
 .yrm-l p{margin:0;font-size:1.08rem;line-height:1.5;font-weight:600;letter-spacing:-.01em}
 .yrm-l span{color:var(--mute);font-size:.88rem}
+.rv-snd{display:none!important}
+section.hero.hero--ac{height:auto!important;min-height:0!important;background:#fff!important;color:var(--ink)!important;overflow:visible;padding:calc(64px + clamp(28px,5vw,64px)) var(--gut) clamp(36px,6vw,80px)}
+.ach{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(28px,5vw,72px);align-items:center}
+.ach-logo{width:min(100%,520px);height:auto;display:block}
+section.hero.hero--ac h1.ach-h{font-size:clamp(1.9rem,3.6vw,3.3rem)!important;color:var(--ink);margin-left:0;font-weight:700;letter-spacing:-.04em;line-height:1.05;margin:clamp(18px,2.4vw,30px) 0 0;max-width:18ch;transform:none!important;opacity:1!important}
+.hero--ac .day{color:#2c7a3f;font-size:clamp(1rem,1.4vw,1.2rem);letter-spacing:-.01em;margin-top:12px;opacity:1!important;transform:none!important}
+.hero--ac .hero-cta{color:var(--ink)}
+.pill--red{background:#c4202a;color:#fff}.pill--red:hover{background:#9e1820;color:#fff}
+.pill.pill--line{border:1.5px solid var(--ink)!important;color:var(--ink)!important;background:transparent}.pill--line:hover{background:var(--ink);color:#fff}
+.ach-b{margin-top:18px;color:var(--mute);font-size:.92rem;font-weight:600}
+.ach-g{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.ach-g li{aspect-ratio:1;background:#f6f3ee;border-radius:18px;display:grid;place-items:center;padding:10%;overflow:hidden}
+.ach-g img{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply}
+@media (max-width:860px){.ach{grid-template-columns:1fr}.ach-logo{width:min(100%,420px)}.ach-g{gap:8px}.ach-g li{border-radius:14px}}
+
 .kat{padding-block:clamp(40px,6vw,90px) clamp(24px,4vw,56px)}
 .kt-g{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
 @media (max-width:900px){.kt-g{grid-template-columns:repeat(2,1fr);gap:10px}}
@@ -456,12 +471,16 @@ html.bk-open{overflow:hidden}
 </header>
 
 <main id="main">
-  <section class="hero" id="top" data-dark aria-labelledby="h-hero">
-    <div class="stage" aria-hidden="true"><img fetchpriority="high" class="poster" src="assets/img/magaza-aksam-960.webp" srcset="assets/img/magaza-aksam-480.webp 480w, assets/img/magaza-aksam-960.webp 960w, assets/img/magaza-aksam-1400.webp 1400w" sizes="100vw" alt="" width="1463" height="640" decoding="async"></div>
-    <div class="hero-text">
-      <h1 id="h-hero"><span data-i18n="hello">Ada Ceylan Makina</span><span class="dot" aria-hidden="true"></span></h1>
-      <p class="day" id="day"></p>
-      <div class="hero-cta"><a class="pill pill--gold" href="#rezervasyon" data-book data-i18n="cta">Fiyat sor</a><a class="pill pill--out tel" href="tel:+902642769090">0264 276 90 90</a></div>
+  <section class="hero hero--ac" id="top" aria-labelledby="h-hero">
+    <div class="ach">
+      <div class="ach-t">
+        <img class="ach-logo" src="assets/img/logo-yatay.png" alt="Ada Ceylan Makina · Makine, Teknik, Hırdavat" width="1200" height="380" fetchpriority="high">
+        <h1 id="h-hero" class="ach-h" data-i18n="hero_h">Kaynaktan hırdavata, işinizin her parçası burada.</h1>
+        <p class="day" id="day"></p>
+        <div class="hero-cta"><a class="pill pill--red" href="#rezervasyon" data-book data-i18n="cta">Fiyat sor</a><a class="pill pill--line tel" href="tel:+902642769090">0264 276 90 90</a></div>
+        <p class="ach-b" data-i18n="hero_b">Magmaweld Yetkili Bayi · Bosch · İzeltaş · Sakarya 1. OSB</p>
+      </div>
+      <ul class="ach-g" aria-label="Ürünlerden örnekler"><li><img src="assets/img/u-taslama-480.webp" alt="Avuç taşlama" width="480" height="480" decoding="async"></li><li><img src="assets/img/u-kaynak-maskesi-480.webp" alt="Kaynak maskesi" width="480" height="480" decoding="async"></li><li><img src="assets/img/u-takim-cantasi-480.webp" alt="Takım çantası" width="480" height="480" decoding="async"></li><li><img src="assets/img/u-lazer-metre-480.webp" alt="Lazer metre" width="480" height="480" decoding="async"></li><li><img src="assets/img/u-matkap-ucu-480.webp" alt="Matkap uçları" width="480" height="480" decoding="async"></li><li><img src="assets/img/u-kompresor-480.webp" alt="Kompresör" width="480" height="480" decoding="async"></li></ul>
     </div>
   </section>
 
@@ -850,5 +869,5 @@ html{-webkit-tap-highlight-color:transparent}
 .nav .pill.rv-bounce{animation:rvBounce .6s cubic-bezier(.28,.84,.42,1)}
 @media (prefers-reduced-motion:reduce){.nav .pill.rv-bounce{animation:none}}
 </style>
-<script src="assets/js/app.5d860e2f3f.js" defer></script>
+<script src="assets/js/app.0ee7ef9b4a.js" defer></script>
 </body></html>

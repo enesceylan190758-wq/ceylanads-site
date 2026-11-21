@@ -265,9 +265,13 @@ k5:"İş Güvenliği",
 k6:"Makina Aksesuarları",
 k7:"Hırdavat ve Kimyasallar",
 k8:"Yük Taşıma ve Kompresör",
+hero_h:"Kaynaktan hırdavata, işinizin her parçası burada.",
+hero_b:"Magmaweld Yetkili Bayi · Bosch · İzeltaş · Sakarya 1. OSB",
 reel_label:"Fiyat sor",
 reel:"Fiyat sor"
 }};I18N.en={
+hero_h:"From welding to hardware, every part of your job is here.",
+hero_b:"Magmaweld Authorized Dealer · Bosch · İzeltaş · Sakarya 1st OIZ",
 og_k:"Authorised dealer · Erenler OSB",
 og_h1:"Magmaweld",
 og_h2:"Authorised Dealer.",
