@@ -1,8 +1,10 @@
 {
- "magmaweld.png": "https://www.magmaweld.com.tr/Content/ProductImages/Magmaweld.png",
- "magmaweld-fav.png": "https://www.magmaweld.com.tr/Content/Images/favicon/favicon-32x32.png",
- "karbosan.svg": "https://www.karbosan.com/img/upload/logo_1692028236.svg",
- "makina-takim.svg": "https://makinatakim.com.tr/wp-content/uploads/2025/12/logo.svg",
- "izeltas.svg": "https://izeltas.com.tr/wp-content/uploads/2020/12/izeltas-logo.svg",
- "bosch.svg": "https://www.bosch-professional.com/media/professional/central_assets/bosch_logo/bosch.svg"
+ "mw0.bin": "https://www.magmaweld.com.tr/Content/Theme/WhiteTheme/img/logo.png",
+ "mw1.bin": "https://www.magmaweld.com.tr/Content/Theme/WhiteTheme/img/logo.svg",
+ "mw2.bin": "https://www.magmaweld.com.tr/Content/Theme/WhiteTheme/img/magmaweld-logo.png",
+ "mw3.bin": "https://www.magmaweld.com.tr/Content/Theme/WhiteTheme/img/logo-white.png",
+ "mw4.bin": "https://www.magmaweld.com.tr/Content/Images/logo.png",
+ "mw5.bin": "https://www.magmaweld.com.tr/Content/Images/logo.svg",
+ "mw6.bin": "https://www.magmaweld.com.tr/Content/Theme/WhiteTheme/css/style.css",
+ "mw7.bin": "https://www.magmaweld.com.tr/Content/Theme/WhiteTheme/css/main.css"
 }
