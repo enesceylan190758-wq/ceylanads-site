@@ -275,9 +275,13 @@ pb_r:"Resmî bayi",
 pb_go:"Bu markadan fiyat sor",
 pf_h:"Kaynakta Magmaweld yetkili bayisi.",
 pf_go:"Magmaweld fiyatı sor",
+mgz_k:"Mağazamızdan",
+mgz_h:"Erenler OSB'de, geniş satış salonu.",
 reel_label:"Fiyat sor",
 reel:"Fiyat sor"
 }};I18N.en={
+mgz_k:"From our store",
+mgz_h:"A spacious showroom in Erenler OSB.",
 pf_go:"Ask a Magmaweld price",
 pf_h:"Authorised Magmaweld dealer for welding.",
 pb_go:"Ask a price for this brand",
